@@ -34,3 +34,6 @@ Steps in Running the app
  # • for rating Below 5 it will show a hollow star
  # • for rating 5 and above it will show a solid yellow star
  
+![image](https://github.com/johnrodneybargayo/MovieListingApp/assets/124292036/8341a6e8-69a1-4f5e-a9a8-d2c584491996) 
+![image](https://github.com/johnrodneybargayo/MovieListingApp/assets/124292036/5a65e137-02b8-4d80-867a-1e9e01de73a8)
+
