@@ -30,15 +30,25 @@ Steps in Running the app
 
 # Features added:
   # RESET Button: to clear the searches and return back to home
+  
 ![image](https://github.com/johnrodneybargayo/MovieListingApp/assets/124292036/8341a6e8-69a1-4f5e-a9a8-d2c584491996) 
+
 # if the input Field is Empty it shows no results found
+
 ![image](https://github.com/johnrodneybargayo/MovieListingApp/assets/124292036/9f62d59f-3a55-4ae4-b61a-f436ddcfbba2)
  # RATING:
-• for rating 5 and above it will show a solid yellow star
-•  for rating Below 5 it will show a hollow star
+ 
+ # • for rating 5 and above it will show a solid yellow star
+
 ![image](https://github.com/johnrodneybargayo/MovieListingApp/assets/124292036/5a65e137-02b8-4d80-867a-1e9e01de73a8)
 
+# •  for rating Below 5 it will show a hollow star
+
+![image](https://github.com/johnrodneybargayo/MovieListingApp/assets/124292036/7a675b3d-6a1f-4f12-99ea-93211d43681c)
+
+
 ![image](https://github.com/johnrodneybargayo/MovieListingApp/assets/124292036/752b53a5-688a-4e6b-86a8-383028629704)
+
 ![image](https://github.com/johnrodneybargayo/MovieListingApp/assets/124292036/c9afc653-3be7-446b-b10e-c3a5fd594717)
 
 
