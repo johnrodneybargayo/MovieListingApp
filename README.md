@@ -29,9 +29,8 @@ Steps in Running the app
     If the build is successful, the app should open on your emulator or physical device.
 
 # Features added:
-
- RESET Button: to clear the searches and return back to home
- Rating ICON: 
- • for rating Below 5 it will show a hollow star
- • for rating 5 and above it will show a solid yellow star
+  RESET Button: to clear the searches and return back to home
+  Rating ICON: 
+ # • for rating Below 5 it will show a hollow star
+ # • for rating 5 and above it will show a solid yellow star
  
