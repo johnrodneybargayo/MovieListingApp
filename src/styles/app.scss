@@ -1,0 +1,26 @@
+@import '_colors';
+@import '_fonts';
+@import '_spacing';
+
+body {
+  font-family: $mainFont;
+  background-color: $primaryColor;
+  color: #333; // Text color
+  padding: 15px 14px 10px; // Top, Horizontal, Bottom padding
+  margin-top: 15px;
+}
+
+.container {
+  flex: 1;
+  padding: 14px; // Adjusted horizontal padding
+  margin-top: 10px;
+}
+
+.button {
+  background-color: $secondaryColor;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 15px; // Adjusted margin-top
+}
