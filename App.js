@@ -1,20 +1,30 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { useState } from 'react';
+import HomeScreen from './src/screens/HomeScreen';
+import DetailsScreen from './src/screens/DetailsScreen'; // Now using index.js
 
-export default function App() {
+// App component
+const App = () => {
+  const [currentScreen, setCurrentScreen] = useState('Home');
+  const [detailsParams, setDetailsParams] = useState(null);
+
+  const navigateTo = (screen, params) => {
+    setCurrentScreen(screen);
+    setDetailsParams(params);
+  };
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+    <>
+      {currentScreen === 'Home' && (
+        <HomeScreen navigation={{ navigate: navigateTo }} />
+      )}
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+      {currentScreen === 'Details' && (
+        <DetailsScreen route={{ params: { ...detailsParams, navigateTo } }} />
+      )}
+    </>
+  );
+};
+
+
+
+export default App;
